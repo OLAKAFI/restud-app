@@ -78,7 +78,7 @@ const coursedatas = [
        id: 5,
        name: "English Language",
        image: englishicon,
-       video: "https://www.youtube.com/embed/VpCF9hRudxo",
+       video: "https://youtu.be/J4kd-hG9ZDk",
        details: {
          intro: "English studies (usually called simply English) is an academic discipline taught in primary, secondary, and post-secondary education in English-speaking countries; it is not to be confused with English taught as a foreign language, which is a distinct discipline. It involves the study and exploration of texts created in English literature.",
          branches: [
