@@ -1,0 +1,35 @@
+*, body, html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+
+}
+
+body{
+  background-color: rgb(160, 62, 252);
+ 
+  
+
+}
+
+.login-bg{
+  background: white !important;
+}
+
+
+.bg-kodegreen{
+  background-color: #669e00;
+}
+
+.kodegreen{
+  color: #669e00 !important;
+}
+
+.bg-kodepurple{
+  background-color: #0d6efd;
+}
+
+.kodepurple{
+  color: #0d6efd !important;
+}
