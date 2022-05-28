@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/restud-app/static/css/main.7b17e442.css",
-    "main.js": "/restud-app/static/js/main.5634db85.js",
+    "main.js": "/restud-app/static/js/main.3e85e84a.js",
     "static/js/787.17d1f4be.chunk.js": "/restud-app/static/js/787.17d1f4be.chunk.js",
     "static/media/tech-support.png": "/restud-app/static/media/tech-support.111c8ca4a066278ad966.png",
     "static/media/english.png": "/restud-app/static/media/english.01f0aabaf9fd4d0205cc.png",
@@ -12,11 +12,11 @@
     "static/media/chemistry.png": "/restud-app/static/media/chemistry.6c52970d964d6f898c4a.png",
     "index.html": "/restud-app/index.html",
     "main.7b17e442.css.map": "/restud-app/static/css/main.7b17e442.css.map",
-    "main.5634db85.js.map": "/restud-app/static/js/main.5634db85.js.map",
+    "main.3e85e84a.js.map": "/restud-app/static/js/main.3e85e84a.js.map",
     "787.17d1f4be.chunk.js.map": "/restud-app/static/js/787.17d1f4be.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7b17e442.css",
-    "static/js/main.5634db85.js"
+    "static/js/main.3e85e84a.js"
   ]
 }
