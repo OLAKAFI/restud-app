@@ -8,6 +8,8 @@ import {getCourseData} from './CourseData';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Container, Row, Col, Button, Form} from 'react-bootstrap';
 import Logout from './Logout';
+import NewSlideBar from './NewSlideBar';
+
 
 
 function CourseIndiv() {
@@ -42,26 +44,19 @@ function CourseIndiv() {
     <>
         
         
-        <div className=''>
-            <Container className="border border-1 my-5 rounded shadow-lg  text-center" >
+       
                 <Row className="">
-                    <Col>
-                        {/* <div className='img-fluid text-center text-white'>
-                            <h1>{courseId.name} Overview</h1>
-                            <div className='col-7 mx-auto'>
-                              <h5>Course Introduction</h5>
-                              <p>{intro}</p>
-                            </div>
-                            <div>
-                              <h5>Other Similar Branches</h5>
-                              <div className=' border border-1 '>
-                                <p className='d-flex'>{branches}</p>
 
-                              </div>
-                              
-                            </div>
-                        </div> */}
 
+
+               
+
+        
+                    <Col className="col-2 ">
+                        <NewSlideBar/>
+
+                    </Col>
+                    <Col className='col-8 my-5 ms-5 '>
                         <Card  className="mx-auto border-primary shadow-sm text-center"  >
                           
                           
@@ -91,9 +86,7 @@ function CourseIndiv() {
                 </Row>
 
                     
-            </Container>
-        </div>
-        <Logout/>
+          
     
     </>
   )

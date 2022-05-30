@@ -13,11 +13,11 @@ function CourseDetails({id, name, image}) {
   return (
     <>
       
-      <div>
+      <div className='shadow-lg border border-rounded'>
           
-        <Link to={`/dashboard/${name}`} className='text-decoration-none' key={id}>
+        <Link to={`/mycourse/${name}`} className='text-decoration-none' key={id}>
 
-          <div  className="mx-auto border border-1 border-success shadow-sm py-auto"  style={{ height: '20rem' }} >
+          <div  className="mx-auto   py-auto"  style={{ height: '20rem',  width: '15rem', }} >
               
               <div className='my-5 '>
                 <div className='container-fluid  text-center  ' >

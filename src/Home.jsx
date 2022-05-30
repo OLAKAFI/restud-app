@@ -8,7 +8,7 @@ function Home() {
   return (
     <>
         <Container>
-            <Row className='my-5'>
+            <Row className='py-5 vh-100'>
                 <Col className='my-auto'>
                     <div className='col-10'>
                         <h1 className='display-3 fw-bold text-dark'><span className='kodegreen'>Learn</span> on your Class Schedule</h1>

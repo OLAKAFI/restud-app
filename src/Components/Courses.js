@@ -14,7 +14,7 @@ function Courses() {
     <>
 
 
-        <div className='container-fluid bg-light mt-5 mb-4'>
+        <div className='container-fluid bg-kodepurple mt-5 mb-4'>
 
 
           <Row xs={1} md={2} lg={3} className="g-4">

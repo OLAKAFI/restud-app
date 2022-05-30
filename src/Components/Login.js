@@ -26,7 +26,7 @@ function Login() {
 
   useEffect(() => {
     if (loading) return;
-    if (user) navigate("/profile");
+    if (user) navigate("/dashboard");
     
   }, [user, loading,navigate]);
   return (

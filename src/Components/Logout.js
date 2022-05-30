@@ -3,6 +3,8 @@ import { useAuthState } from "react-firebase-hooks/auth";
 import { useNavigate } from "react-router-dom";
 import {Container, Row, Col, Button, Form} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { BiLogOut } from "react-icons/bi";
+import { RiArrowGoBackFill } from "react-icons/ri";
 
 import { auth, db, logout } from "./firebase";
 import { query, collection, getDocs, where } from "firebase/firestore";
@@ -31,43 +33,48 @@ function Logout() {
   return (
     <>
      
-      <Container fluid className="pb-5">
-        <Col className=''>
-          <div>
-            <hr className=" border border-2 border-success "></hr>
-          </div>
- 
-          <div>
-            <h5>Login Details</h5>
-            <p>{user?.email}</p>
-            <p>{user?.displayName}</p>
-            <p>This accont was created {user?.metadata.creationTime}</p>
-            <p>Lat seen {user?.metadata.lastSignInTime}</p>
-          </div>             
-
-          
-          
-
-        </Col>
+      
         
-        <Col className='d-flex justify-content-start mt-4'>
+        
+        
 
           
-          <div className=' '>
-            <Button variant="success" size="md" onClick={() => navigate(-1)}>
-              Go Back
-            </Button>
-  
-          </div>
-          <div className="ms-auto">
-                <Button variant="danger" size="md" onClick={logout}>
-                  Logout
-                </Button>
+          
+          
 
+          <div className="mt-5 ">
+            
+            <Button variant="" size="md" onClick={() => navigate(-1)}>
+              <div className="d-flex justify-content-evenly">
+                <div className="ms-4">
+                  <span className="text-white"><RiArrowGoBackFill/></span>
+                </div>
+                <div className="ms-4 ps-1">
+                  <span className="text-white">Go Back</span>
+
+                </div>
+              </div>
+               
+            </Button>
+          </div>
+          <div className=" ms-auto">
+            
+            <Button variant="" size="md" onClick={logout}>
+              <div className="d-flex justify-content-evenly">
+                <div className="ms-4">
+                  <span className="text-white"><BiLogOut/></span>
+                </div>
+                <div className="ms-4 ps-1">
+                  <span className="text-white">Logout</span>
+
+                </div>
+              </div>
+               
+            </Button>
           </div>
            
-        </Col>
-      </Container>
+        
+      
     
     
     </>

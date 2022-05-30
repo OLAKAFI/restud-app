@@ -10,7 +10,7 @@ function MyNavBar() {
   return (
     <>
         <Navbar className='bg-kodepurple'>
-            <Container>
+            <Container className='container-fluid'>
                 <Navbar.Brand >
                     <Link to="/" className='text-decoration-none text-white'>  ReStud </Link>
                
