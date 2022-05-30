@@ -1,22 +1,37 @@
 {
   "files": {
-    "main.css": "/restud-app/static/css/main.7b17e442.css",
-    "main.js": "/restud-app/static/js/main.3e85e84a.js",
+    "main.css": "/restud-app/static/css/main.ef5465db.css",
+    "main.js": "/restud-app/static/js/main.f7808e89.js",
     "static/js/787.17d1f4be.chunk.js": "/restud-app/static/js/787.17d1f4be.chunk.js",
     "static/media/tech-support.png": "/restud-app/static/media/tech-support.111c8ca4a066278ad966.png",
+    "static/media/fa-solid-900.svg": "/restud-app/static/media/fa-solid-900.7a8b4f130182d19a2d7c.svg",
+    "static/media/fa-brands-400.svg": "/restud-app/static/media/fa-brands-400.2f517e09eb2ca6650ff5.svg",
     "static/media/english.png": "/restud-app/static/media/english.01f0aabaf9fd4d0205cc.png",
     "static/media/biology.png": "/restud-app/static/media/biology.8c6291291b5f4b3c3b6d.png",
     "static/media/physics.png": "/restud-app/static/media/physics.a72e2df0a79e07687afc.png",
+    "static/media/fa-solid-900.eot": "/restud-app/static/media/fa-solid-900.9bbb245e67a133f6e486.eot",
+    "static/media/fa-solid-900.ttf": "/restud-app/static/media/fa-solid-900.be9ee23c0c6390141475.ttf",
     "static/media/maths.png": "/restud-app/static/media/maths.1ce5aab277554f6eea0d.png",
     "static/media/login.png": "/restud-app/static/media/login.e3f21f4fc700d0feb0f5.png",
+    "static/media/fa-regular-400.svg": "/restud-app/static/media/fa-regular-400.4689f52cc96215721344.svg",
+    "static/media/fa-brands-400.eot": "/restud-app/static/media/fa-brands-400.23f19bb08961f37aaf69.eot",
+    "static/media/fa-brands-400.ttf": "/restud-app/static/media/fa-brands-400.527940b104eb2ea366c8.ttf",
+    "static/media/fa-solid-900.woff": "/restud-app/static/media/fa-solid-900.eeccf4f66002c6f2ba24.woff",
+    "static/media/fa-brands-400.woff": "/restud-app/static/media/fa-brands-400.2285773e6b4b172f07d9.woff",
+    "static/media/fa-solid-900.woff2": "/restud-app/static/media/fa-solid-900.1551f4f60c37af51121f.woff2",
+    "static/media/fa-brands-400.woff2": "/restud-app/static/media/fa-brands-400.d878b0a6a1144760244f.woff2",
+    "static/media/fa-regular-400.eot": "/restud-app/static/media/fa-regular-400.77206a6bb316fa0aded5.eot",
+    "static/media/fa-regular-400.ttf": "/restud-app/static/media/fa-regular-400.491974d108fe4002b2aa.ttf",
     "static/media/chemistry.png": "/restud-app/static/media/chemistry.6c52970d964d6f898c4a.png",
+    "static/media/fa-regular-400.woff": "/restud-app/static/media/fa-regular-400.bb58e57c48a3e911f15f.woff",
+    "static/media/fa-regular-400.woff2": "/restud-app/static/media/fa-regular-400.7a3337626410ca2f4071.woff2",
     "index.html": "/restud-app/index.html",
-    "main.7b17e442.css.map": "/restud-app/static/css/main.7b17e442.css.map",
-    "main.3e85e84a.js.map": "/restud-app/static/js/main.3e85e84a.js.map",
+    "main.ef5465db.css.map": "/restud-app/static/css/main.ef5465db.css.map",
+    "main.f7808e89.js.map": "/restud-app/static/js/main.f7808e89.js.map",
     "787.17d1f4be.chunk.js.map": "/restud-app/static/js/787.17d1f4be.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b17e442.css",
-    "static/js/main.3e85e84a.js"
+    "static/css/main.ef5465db.css",
+    "static/js/main.f7808e89.js"
   ]
 }
